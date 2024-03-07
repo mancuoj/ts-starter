@@ -1,3 +1,3 @@
-# pkg-name
+# package-placeholder
 
-pkg-desc
+package-description

@@ -1,20 +1,20 @@
 {
-  "name": "pkg-name",
+  "name": "package-placeholder",
   "type": "module",
   "version": "0.0.1",
   "packageManager": "pnpm@8.15.4",
-  "description": "pkg-desc",
+  "description": "package-description",
   "author": {
     "name": "mancuoj",
     "url": "https://github.com/mancuoj"
   },
   "license": "MIT",
-  "homepage": "https://github.com/mancuoj/pkg-name#readme",
+  "homepage": "https://github.com/mancuoj/package-placeholder#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mancuoj/pkg-name.git"
+    "url": "git+https://github.com/mancuoj/package-placeholder.git"
   },
-  "bugs": "https://github.com/mancuoj/pkg-name/issues",
+  "bugs": "https://github.com/mancuoj/package-placeholder/issues",
   "keywords": [],
   "sideEffects": false,
   "exports": {
