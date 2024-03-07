@@ -1,7 +1,8 @@
 import { describe, expect, it } from 'vitest'
+import { one } from '../src'
 
 describe('should', () => {
   it('export', () => {
-    expect(1).toEqual(1)
+    expect(one).toEqual(1)
   })
 })
