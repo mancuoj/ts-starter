@@ -8,6 +8,10 @@
 
 package-description
 
+## License
+
+[MIT](https://github.com/mancuoj/package-placeholder/blob/main/LICENSE) License © 2024-PRESENT [Mancuoj](https://github.com/mancuoj)
+
 <!-- Badges -->
 [npm-version-src]: https://img.shields.io/npm/v/package-placeholder?style=flat&colorA=080f12&colorB=1fa669
 [npm-version-href]: https://npmjs.com/package/package-placeholder
