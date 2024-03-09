@@ -40,9 +40,7 @@
       ]
     }
   },
-  "files": [
-    "dist"
-  ],
+  "files": ["dist"],
   "scripts": {
     "build": "bunchee",
     "dev": "bunchee -w",
