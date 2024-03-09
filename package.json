@@ -46,11 +46,10 @@
   "scripts": {
     "build": "bunchee",
     "dev": "bunchee -w",
-    "lint": "eslint .",
-    "test": "vitest run",
-    "typecheck": "tsc",
+    "lint": "eslint . && tsc",
+    "test": "vitest",
     "clean": "rimraf ./dist",
-    "check": "pnpm lint && pnpm typecheck && pnpm test",
+    "check": "pnpm lint && pnpm test",
     "prepare": "simple-git-hooks",
     "prepublishOnly": "pnpm clean && pnpm build && pnpm check",
     "release": "bumpp && pnpm publish"
