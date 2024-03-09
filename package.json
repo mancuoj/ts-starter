@@ -46,6 +46,7 @@
   "scripts": {
     "build": "bunchee",
     "dev": "bunchee -w",
+    "start": "esno src/index.ts",
     "lint": "eslint . && tsc",
     "test": "vitest",
     "prepare": "simple-git-hooks",
@@ -58,6 +59,7 @@
     "bumpp": "^9.4.0",
     "bunchee": "^4.4.8",
     "eslint": "^8.57.0",
+    "esno": "^4.7.0",
     "lint-staged": "^15.2.2",
     "simple-git-hooks": "^2.10.0",
     "typescript": "^5.3.3",
