@@ -33,15 +33,17 @@
   "scripts": {
     "build": "unbuild",
     "dev": "unbuild --stub",
-    "lint": "eslint . && tsc --noEmit",
-    "test": "pnpm lint && vitest run",
-    "prepare": "simple-git-hooks",
-    "prepublishOnly": "pnpm test && pnpm build",
-    "release": "bumpp && pnpm publish"
+    "lint": "eslint .",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest",
+    "prepublishOnly": "nr build",
+    "release": "bumpp && npm publish",
+    "prepare": "simple-git-hooks"
   },
   "devDependencies": {
     "@antfu/eslint-config": "^2.8.3",
-    "@types/node": "^20.11.28",
+    "@types/node": "^20.11.30",
+    "@vitest/coverage-v8": "^1.4.0",
     "bumpp": "^9.4.0",
     "eslint": "^8.57.0",
     "lint-staged": "^15.2.2",
