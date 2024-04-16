@@ -9,21 +9,9 @@
   "repository": "mancuoj/package-placeholder",
   "keywords": [],
   "sideEffects": false,
-  "exports": {
-    ".": {
-      "import": {
-        "types": "./dist/es/index.d.ts",
-        "default": "./dist/es/index.js"
-      },
-      "require": {
-        "types": "./dist/cjs/index.d.cts",
-        "default": "./dist/cjs/index.cjs"
-      }
-    }
-  },
-  "main": "./dist/cjs/index.cjs",
-  "module": "./dist/es/index.js",
-  "types": "./dist/es/index.d.ts",
+  "exports": "./dist/index.js",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
   "files": [
     "dist"
   ],
