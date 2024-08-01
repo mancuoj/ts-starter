@@ -1,0 +1,11 @@
+{
+  "name": "playground",
+  "private": true,
+  "scripts": {
+    "start": "esno index.ts"
+  },
+  "dependencies": {
+    "esno": "^4.7.0",
+    "package-placeholder": "workspace:^"
+  }
+}
