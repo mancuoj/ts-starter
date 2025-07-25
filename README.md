@@ -10,7 +10,7 @@ package-description
 
 ## License
 
-[MIT](https://github.com/mancuoj/package-placeholder/blob/main/LICENSE) License © 2025-PRESENT [Mancuoj](https://github.com/mancuoj)
+[MIT](https://github.com/mancuoj/package-placeholder/blob/main/LICENSE) License © 2024-PRESENT [Mancuoj](https://github.com/mancuoj)
 
 <!-- Badges -->
 
