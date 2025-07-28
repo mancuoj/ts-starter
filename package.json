@@ -20,9 +20,6 @@
   "main": "./dist/index.js",
   "module": "./dist/index.js",
   "types": "./dist/index.d.ts",
-  "files": [
-    "dist"
-  ],
   "scripts": {
     "lint": "eslint",
     "lint:fix": "eslint --fix",
@@ -30,8 +27,7 @@
     "dev": "tsdown --watch",
     "typecheck": "tsc --noEmit",
     "test": "vitest",
-    "release": "bumpp && pnpm publish",
-    "prepublishOnly": "pnpm build"
+    "release": "bumpp && pnpm publish --access public"
   },
   "devDependencies": {
     "@antfu/eslint-config": "^4.19.0",
