@@ -2,7 +2,7 @@
   "name": "package-placeholder",
   "type": "module",
   "version": "0.0.0",
-  "packageManager": "pnpm@10.25.0",
+  "packageManager": "pnpm@10.26.1",
   "description": "package-description",
   "author": "mancuoj <mancuoj@gmail.com>",
   "license": "MIT",
@@ -30,13 +30,13 @@
     "release": "bumpp && pnpm publish --access public"
   },
   "devDependencies": {
-    "@antfu/eslint-config": "^6.7.1",
+    "@antfu/eslint-config": "^6.7.3",
     "@types/node": "^24.10.4",
     "bumpp": "^10.3.2",
     "eslint": "^9.39.2",
     "eslint-plugin-format": "^1.1.0",
-    "tsdown": "^0.17.4",
+    "tsdown": "^0.18.2",
     "typescript": "^5.9.3",
-    "vitest": "^4.0.15"
+    "vitest": "^4.0.16"
   }
 }
